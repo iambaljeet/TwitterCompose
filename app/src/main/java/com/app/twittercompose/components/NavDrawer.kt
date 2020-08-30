@@ -1,4 +1,4 @@
-package com.app.twittercompose.drawer
+package com.app.twittercompose.components
 
 import androidx.compose.foundation.ScrollableColumn
 import androidx.compose.foundation.Text
@@ -12,7 +12,6 @@ import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.app.twittercompose.components.*
 import com.app.twittercompose.state.DrawerUiState
 import com.app.twittercompose.state.Profile
 

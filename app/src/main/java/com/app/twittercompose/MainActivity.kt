@@ -14,8 +14,8 @@ import androidx.compose.ui.platform.setContent
 import com.app.twittercompose.components.TweetsList
 import com.app.twittercompose.data.drawerUiState
 import com.app.twittercompose.data.homeUiState
-import com.app.twittercompose.drawer.NavDrawer
-import com.app.twittercompose.drawer.TopAppBar
+import com.app.twittercompose.components.NavDrawer
+import com.app.twittercompose.components.TopAppBar
 import com.app.twittercompose.ui.TwitterComposeTheme
 
 class MainActivity : AppCompatActivity() {

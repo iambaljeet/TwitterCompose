@@ -1,4 +1,4 @@
-package com.app.twittercompose.drawer
+package com.app.twittercompose.components
 
 import androidx.compose.foundation.Icon
 import androidx.compose.foundation.layout.*
