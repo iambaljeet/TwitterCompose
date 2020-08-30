@@ -1,6 +1,6 @@
 ![](https://github.com/iambaljeet/TwitterCompose/blob/master/art/twittercomposeUI.png)
 
-# TwitterCompose 🦠
+# TwitterCompose
 
 [![GitHub license](https://img.shields.io/github/license/iambaljeet/TwitterCompose)](LICENSE)
 ![Github Followers](https://img.shields.io/github/followers/iambaljeet?label=Follow&style=social)
