@@ -16,9 +16,7 @@
 **TwitterCompose** is an Android applciation 📱 for showcasing Jetpack Compose for building declarative UI in Android.
 
 ## About
-. This application first conenct to API to get Data. It saves the data to Local DB and fetched it ans shows to UI everytime App is opened.
-Also it synchronize the Data with Remote server.
-- This makes it offline capable. 
+. This is a demo application for showcasing Twitter UI using Rows, Columns, Lists etc.
 - Clean and Simple Material UI.
 - It supports dark theme too 🌗.
 
