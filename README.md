@@ -13,14 +13,12 @@
 ## Demo
 ![](https://github.com/iambaljeet/TwitterCompose/blob/master/art/demo.webp)
 
-**TwitterCompose** is an Android applciation 📱 for showcasing Jetpack Compose for building declarative UI in Android.
+**TwitterCompose** is an Android application 📱 for showcasing Jetpack Compose for building declarative UI in Android.
 
 ## About
 . This is a demo application for showcasing Twitter UI using Rows, Columns, Lists etc.
 - Clean and Simple Material UI.
 - It supports dark theme too 🌗.
-
-*API used in this demo [API](https://covid19.mathdro.id/api)*.
 
 ## Built With 🛠
 - [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
