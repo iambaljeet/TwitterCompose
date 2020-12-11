@@ -4,7 +4,7 @@ import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.ImageVector
 
 class DrawerUiState(
     myProfile: Profile,
@@ -26,6 +26,6 @@ class DrawerUiState(
 
 @Immutable
 data class DrawerItemsData(
-    val drawerItemIcon: VectorAsset?,
+    val drawerItemIcon: ImageVector?,
     val drawerItemLabel: String
 )

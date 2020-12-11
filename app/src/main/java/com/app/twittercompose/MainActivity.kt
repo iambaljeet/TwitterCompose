@@ -2,11 +2,7 @@ package com.app.twittercompose
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.foundation.Icon
-import androidx.compose.material.FloatingActionButton
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Scaffold
-import androidx.compose.material.Surface
+import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.runtime.Composable
@@ -37,11 +33,10 @@ fun HomeScreen() {
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {},
-                icon = {
-                    Icon(asset = Icons.Default.Edit)
-                },
                 backgroundColor = MaterialTheme.colors.secondary
-            )
+            ) {
+                Icon(imageVector = Icons.Default.Edit)
+            }
         },
         topBar = {
             TopAppBar()

@@ -1,9 +1,9 @@
 package com.app.twittercompose.components
 
-import androidx.compose.foundation.Icon
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.Text
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.Icon
+import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Replay
 import androidx.compose.material.icons.outlined.Reply
@@ -12,7 +12,7 @@ import androidx.compose.material.icons.outlined.Star
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.imageResource
 import androidx.compose.ui.text.font.FontWeight
@@ -75,7 +75,7 @@ fun TweetComponent(tweets: Tweets) {
                     Image(
                         modifier = Modifier.fillMaxWidth()
                             .preferredHeight(180.dp),
-                        asset = imageResource(id = tweets.image),
+                        bitmap = imageResource(id = tweets.image),
                         contentScale = ContentScale.FillWidth,
                     )
                 }
@@ -108,12 +108,12 @@ fun TweetComponent(tweets: Tweets) {
 }
 
 @Composable
-fun TweetOptions(icon: VectorAsset, count: String?) {
+fun TweetOptions(icon: ImageVector, count: String?) {
     Row(
-        verticalGravity = Alignment.CenterVertically
+        verticalAlignment = Alignment.CenterVertically
     ) {
         Icon(
-            asset = icon
+            imageVector = icon
         )
         SeparatorSpacer(modifier = Modifier.width(5.dp))
         if (count != null) {
